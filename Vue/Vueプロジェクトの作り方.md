@@ -90,30 +90,30 @@ vue create [プロジェクト名]
 ```
 
 > クラススタイルでの記述によってコンポーネントを作成する。
-VueをTypeScriptかつクラス属性で書くためのツールをインストールしてくれる。
-`class`宣言でコンポーネントが作成できるようになる。
-TypeScript を有効にした場合。
+> VueをTypeScriptかつクラス属性で書くためのツールをインストールしてくれる。
+> class宣言でコンポーネントが作成できるようになる。
+> TypeScript を有効にした場合。
 
 ```
 ? Use Babel alongside TypeScript (required for modern mode, auto-detected polyfills, transpiling JSX)? (Y/n) Y
 ```
 
 > 自動検出されたポリフィルに Babel と TypeScript を使うかどうか。
-TypeScript を有効にした場合。
-ポリフィルは、機能をサポートしないWebブラウザーで機能を実装するコードです。
-ほとんどの場合、HTML5 Web標準を実装するJavaScriptライブラリを指します。
+> TypeScript を有効にした場合。
+> ポリフィルは、機能をサポートしないWebブラウザーで機能を実装するコードです。
+> ほとんどの場合、HTML5 Web標準を実装するJavaScriptライブラリを指します。
 
 ```
 ? Use history mode for router? (Requires proper server setup for index fallback in production) (Y/n) Y
 ```
 
 > Router に履歴モードを使うかどうか。
-Router を有効にした場合。
-vue-routerにはhashモードとhistoryモードがある。
-
+> Router を有効にした場合。
+> vue-routerにはhashモードとhistoryモードがある。
+> 
 > 違い↓
--http://localhost:8080/#/about
--http://localhost:8080/about
+> -http://localhost:8080/#/about
+> -http://localhost:8080/about
 
 
 ```
@@ -125,9 +125,8 @@ vue-routerにはhashモードとhistoryモードがある。
 ```
 
 > CSS プリプロセッサに何を使うか。
-CSS Pre-processors を有効にした場合。
-Dart Sassでいいか。
-
+> CSS Pre-processors を有効にした場合。
+> Dart Sassでいいか。
 
 ```
 ? Pick a linter / formatter config: 
@@ -139,7 +138,7 @@ Dart Sassでいいか。
 ```
 
 > フォーマッターの選択。
-Linter / Formatter を選択した場合。
+> Linter / Formatter を選択した場合。
 
 ```
 ? Pick additional lint features: (Press <space> to select, <a> to toggle all, <i> to invert selection)
@@ -148,7 +147,7 @@ Linter / Formatter を選択した場合。
 ```
 
 > フォーマッターのタイミングの選択。
-Linter / Formatter を選択した場合。
+> Linter / Formatter を選択した場合。
 
 ```
 ? Pick a unit testing solution: 
@@ -157,7 +156,7 @@ Linter / Formatter を選択した場合。
 ```
 
 > テストツールの選択。
-Unit Testing を選択した場合。
+> Unit Testing を選択した場合。
 
 ```
 ? Where do you prefer placing config for Babel, ESLint, etc.? (Use arrow keys)
@@ -165,7 +164,7 @@ Unit Testing を選択した場合。
   In package.json 
 ```
 
-> 各種設定をどこに置くか
+> 各種設定をどこに置くか。
 
 ```
 ? Save this as a preset for future projects? (y/N) y
@@ -173,7 +172,7 @@ Unit Testing を選択した場合。
 ```
 
 > この設定をプリセットとして記憶するかどうか。
-次回プロジェクトを生成するときに同じ設定ですぐ作成できるようになる。
+> 次回プロジェクトを生成するときに同じ設定ですぐ作成できるようになる。
 
 
 ＞＞＞質問に答えていくとプロジェクトが作成される。
@@ -188,16 +187,21 @@ vue ui
 ```
 
 Vue UIで起動した後
+
 <img src="image/VueUIで起動した後.png"/>
 
 新しいプロジェクトを作成する
+
 <img src="image/VueUI新しいプロジェクトを作成する.png"/>
 
 プラグインの設定
+
 <img src="image/VueUIプラグインの設定.png"/>
 
 Vueでプロジェクト作成した後
+
 <img src="image/VueUIでプロジェクト作成した後1.png"/>
+
 <img src="image/VueUIでプロジェクト作成した後2.png"/>
 
 ※GUIは参考です。
